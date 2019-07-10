@@ -1,6 +1,8 @@
 pipeline {
 
-agent any
+  agent {
+   node ('clarity-trunk-ci-ora-Pipeline')
+  }
 
 environment {
 def sai='koti'
