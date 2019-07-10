@@ -1,4 +1,4 @@
-@echo on
+echo
 date
 set sai='koti'
 echo "VENU BABU"
