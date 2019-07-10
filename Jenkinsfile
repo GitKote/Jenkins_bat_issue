@@ -13,7 +13,7 @@ def sai='koti'
     stage ('check bat') {
       steps {
       script {
-            bat label: '', returnStdout: true, script: 'Build.bat'
+            bat label: '', returnStdout: true, script: '@call Build.bat'
       }
       }
     
